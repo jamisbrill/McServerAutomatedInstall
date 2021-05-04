@@ -11,3 +11,4 @@ echo "java -Xms1024M -Xmx3024M -jar spigot.jar -o false -nogui" > launch.sh   # 
 chmod +x launch.sh    # Make file executeable
 sudo ufw allow 25565  #Open mc port
 echo  "eula=true" > eula.txt # agree to mc's eula
+echo  "navigate to the directory /home/mc/serverfiles/ and run sudo ./launh.sh" # Run to start the server 
