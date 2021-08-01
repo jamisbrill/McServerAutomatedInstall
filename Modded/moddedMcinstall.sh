@@ -24,6 +24,6 @@ sudo ./launch.sh   #run the script to launch the server
 
 
 
-//forge-1.12.2-14.23.5.2847-universal.jar   
+//forge-1.12.2-14.23.5.2847-universal.jar   https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.12.2-2838-7.3.1-RC4082/spongeforge-1.12.2-2838-7.3.1-RC4082.jar
 // minecraft_server.1.12.2.jar  //sponge?  https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar
 
