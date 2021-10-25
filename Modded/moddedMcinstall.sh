@@ -13,7 +13,9 @@ mkdir /home/mc/serverfiles #create directory to store server files
 cd /home/mc/serverfiles # navigate to dir
 #curl --output spigot.jar https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar # Download spigot // Update this path     
 #curl --output spigot.jar https://download.getbukkit.org/craftbukkit/craftbukkit-1.17.1.jar #craftbukkit instead of spigot.jar 
-curl --output spigot.jar https://download.getbukkit.org/spigot/spigot-1.17.1.jar #download latest spigot
+curl --output spigot.jar https://download.getbukkit.org/spigot/spigot-1.17.1.jar #download sponge? 
+curl https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.12.2-2838-7.3.1-RC4082/spongeforge-1.12.2-2838-7.3.1-RC4082.jar # download forge
+
 echo "java -Xms1000M -Xmx8000M -jar spigot.jar -o false -nogui" > launch.sh   # Append To file #|reduced ram 
 chmod +x launch.sh    # Make file executeable
 sudo ufw allow 25565  #Open mc port
