@@ -18,3 +18,5 @@ sudo ufw allow 25565  #Open mc port
 echo  "eula=true" > eula.txt # agree to mc's eula
 cd /home/mc/serverfiles #navigate to the directory
 sudo ./launch.sh   #run the script to launch the server 
+cd plugins
+#curl //download plugins wanted .....  
